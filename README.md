@@ -101,7 +101,7 @@ or more multicast groups, pimd can be configured to advertise itself as
 a candidate RP `rp-candidate`, and request to be static RP `rp-address`
 for one or more multicast groups.
 
-    rp-address <address> [<group>[/<LENGTH> | masklen <LENGTH]
+    rp-address <address> [<group>[/<LENGTH> | masklen <LENGTH>]
 
 The `rp-address` setting is the same as the Cisco `ip pim rp-address`
 setting to configure static Rendezvous Points.  The first argument can
